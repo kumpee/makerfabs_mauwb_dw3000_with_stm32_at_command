@@ -18,6 +18,7 @@ This script estimates coefficients (linear) to adjust the offset between the mea
 This script loads coefficients from a file and extracts real-time measurement data from the serial port. The ground truth coordinates of the three anchors are stored in the `pt_a0`, `pt_a1`, and `pt_a2` variables. The raw measurement values are adjusted using the coefficients. The coordinates of the tag are calculated using the LS method and the trilateration method. I use OpenCV to visualize the calculations.
 
 # Resources:
+- MaUWB_DW3000 with STM32 AT Command at [Makerfabs store](https://www.makerfabs.com/mauwb-dw3000-with-stm32-at-command.html)
 - My review of MaUWB_DW3000 with STM32 AT Command at [CNX-Software](https://www.cnx-software.com/2024/04/16/mauwb_dw3000-with-stm32-at-command-review-arduino-uwb-range-precision-indoor-positioning/).
 - Testing video-1 at [YouTube](https://www.youtube.com/watch?v=i9xFhcEHBYI)
 - Testing video-2 at [YouTube](https://www.youtube.com/watch?v=YJQwljjFePU)
